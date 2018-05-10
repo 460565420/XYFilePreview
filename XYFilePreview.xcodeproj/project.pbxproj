@@ -13,6 +13,9 @@
 		F2EF6D8720A43ED500E40675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EF6D8620A43ED500E40675 /* Assets.xcassets */; };
 		F2EF6D8A20A43ED500E40675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EF6D8820A43ED500E40675 /* LaunchScreen.storyboard */; };
 		F2EF6D8D20A43ED500E40675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EF6D8C20A43ED500E40675 /* main.m */; };
+		F2EF6D9920A43EE200E40675 /* XYFilePreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2EF6D9420A43EE200E40675 /* XYFilePreview.xib */; };
+		F2EF6D9A20A43EE200E40675 /* XYFilePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EF6D9520A43EE200E40675 /* XYFilePreviewController.m */; };
+		F2EF6D9B20A43EE200E40675 /* XYFilePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EF6D9620A43EE200E40675 /* XYFilePreview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		F2EF6D8920A43ED500E40675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2EF6D8B20A43ED500E40675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2EF6D8C20A43ED500E40675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2EF6D9420A43EE200E40675 /* XYFilePreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYFilePreview.xib; sourceTree = "<group>"; };
+		F2EF6D9520A43EE200E40675 /* XYFilePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYFilePreviewController.m; sourceTree = "<group>"; };
+		F2EF6D9620A43EE200E40675 /* XYFilePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYFilePreview.m; sourceTree = "<group>"; };
+		F2EF6D9720A43EE200E40675 /* XYFilePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYFilePreview.h; sourceTree = "<group>"; };
+		F2EF6D9820A43EE200E40675 /* XYFilePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYFilePreviewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		F2EF6D7C20A43ED400E40675 /* XYFilePreview */ = {
 			isa = PBXGroup;
 			children = (
+				F2EF6D9320A43EE200E40675 /* XYFilePreView */,
 				F2EF6D7D20A43ED400E40675 /* AppDelegate.h */,
 				F2EF6D7E20A43ED400E40675 /* AppDelegate.m */,
 				F2EF6D8020A43ED400E40675 /* ViewController.h */,
@@ -69,6 +78,18 @@
 				F2EF6D8C20A43ED500E40675 /* main.m */,
 			);
 			path = XYFilePreview;
+			sourceTree = "<group>";
+		};
+		F2EF6D9320A43EE200E40675 /* XYFilePreView */ = {
+			isa = PBXGroup;
+			children = (
+				F2EF6D9820A43EE200E40675 /* XYFilePreviewController.h */,
+				F2EF6D9520A43EE200E40675 /* XYFilePreviewController.m */,
+				F2EF6D9720A43EE200E40675 /* XYFilePreview.h */,
+				F2EF6D9620A43EE200E40675 /* XYFilePreview.m */,
+				F2EF6D9420A43EE200E40675 /* XYFilePreview.xib */,
+			);
+			path = XYFilePreView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2EF6D8A20A43ED500E40675 /* LaunchScreen.storyboard in Resources */,
+				F2EF6D9920A43EE200E40675 /* XYFilePreview.xib in Resources */,
 				F2EF6D8720A43ED500E40675 /* Assets.xcassets in Resources */,
 				F2EF6D8520A43ED400E40675 /* Main.storyboard in Resources */,
 			);
@@ -142,8 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2EF6D8220A43ED400E40675 /* ViewController.m in Sources */,
+				F2EF6D9B20A43EE200E40675 /* XYFilePreview.m in Sources */,
 				F2EF6D8D20A43ED500E40675 /* main.m in Sources */,
 				F2EF6D7F20A43ED400E40675 /* AppDelegate.m in Sources */,
+				F2EF6D9A20A43EE200E40675 /* XYFilePreviewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
